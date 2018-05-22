@@ -1,0 +1,7 @@
+input.ng-touched.ng-invalid {
+    background: red;
+}
+
+input:required {
+    box-shadow: none;
+}
