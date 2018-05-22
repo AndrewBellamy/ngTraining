@@ -7,6 +7,7 @@ import { NewsService } from './newsList.service';
     templateUrl: "./newsList.component.html"
 })
 export class NewsList {
+    searchText:string
     newsItems: {title:string,body:string}[] = []
 
     selectedNewsId:number
