@@ -1,0 +1,12 @@
+<div>
+    WebSocket Status: 
+    <span [ngClass]='{closed: status===0, open:status===1}'>
+        {{statusText[status]}}
+    </span><br>
+    <button (click)='startWebsocketCommunications()'>Start</button>
+    <button (click)='stopWebsocketCommunications()'>Stop</button>
+    <button (click)='resetMessages()'>Reset</button>
+    <p *ngFor="let quote of quotes" >
+        {{quote.ticker}},{{quote.price}},{{quote.change}}
+    </p>
+</div>
