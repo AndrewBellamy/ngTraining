@@ -12,4 +12,5 @@
 * websockets
 * route-test
 * advanced-routing
+* angular-animations
 
