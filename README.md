@@ -14,4 +14,5 @@
 * advanced-routing
 * angular-animations
 * angular-test
+* debugging
 
