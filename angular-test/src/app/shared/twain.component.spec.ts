@@ -4,6 +4,7 @@ import { DebugElement }              from '@angular/core';
 
 import { TwainService }   from './twain.service';
 import { TwainComponent } from './twain.component';
+import { ENGINE_METHOD_NONE } from 'constants';
 
 describe('TwainComponent', () => {
 
@@ -70,7 +71,7 @@ describe('TwainComponent', () => {
   }));
 
   // Test #5
-  it('should show quote after getQuote promise (done)', done => {
+  it('should show quote after getQuote promise (done)', done => { //set implicity to false in tsconfig
     fixture.detectChanges()
 
     spy.calls.mostRecent().returnValue.then(() => {
