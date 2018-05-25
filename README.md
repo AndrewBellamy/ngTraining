@@ -44,3 +44,7 @@ Training projects for Angular 4, provided by New Horizons, covering the followin
 * angular-test
 * debugging
 
+## Lab Files Zip
+
+Lab Files contains everything necessary to complete the module lab exercises. 
+
